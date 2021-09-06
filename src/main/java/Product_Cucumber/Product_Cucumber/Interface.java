@@ -32,9 +32,9 @@ public class Interface {
 		i.m1();
 		i.m2();
 		System.out.println("----------------------");
-		t.m3();
 		t.m1();
 		t.m2();
+		t.m3();
 	}
 
 }
