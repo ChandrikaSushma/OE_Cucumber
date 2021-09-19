@@ -10,8 +10,10 @@ public class Even {
 		int n = src.nextInt();
 		src.close();
 		for (int i = 0; i <= n; i++) {
+			// even
 			if (i % 2 == 0)
 				System.out.println(i + "even");
+			// odd
 			else
 				System.out.println(i + "odd");
 		}
