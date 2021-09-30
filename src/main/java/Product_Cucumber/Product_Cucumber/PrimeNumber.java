@@ -20,6 +20,9 @@ public class PrimeNumber {
 			}
 			if (count == 0) {
 				System.out.println(i + "prime");
+			} else {
+				System.out.println(i + "not prime");
+
 			}
 
 		}

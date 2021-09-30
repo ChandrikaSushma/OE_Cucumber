@@ -10,11 +10,11 @@ public class PalidromeString {
 		System.out.println("enter no");
 		String n = src.next();
 		src.close();
-		String data = n;
+		String data = n; // madam
 		String rev = "";
-		int len = n.length();
-		for (int i = len - 1; i >= 0; i--) {
-			rev = rev + n.charAt(i);
+		int len = n.length(); // 5
+		for (int i = len - 1; i >= 0; i--) { // 4 //3 //2 //1 //0
+			rev = rev + n.charAt(i); // m //a //d //a //m
 		}
 		if (rev.equals(data))
 			System.out.println(data + " " + "is plaindrome");
